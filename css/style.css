@@ -13,15 +13,19 @@ body {
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .grid-item {
+  width: 450px;
   padding:5% 5%;
 }
 
 .grid-item2 {
+  width: 450px;
   padding:5% 0%;
   text-align: center;
 }
